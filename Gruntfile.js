@@ -40,7 +40,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:vning93/SURepo.git',
+          remote: 'https://github.com/vning93/SURepo.git',
           branch: 'gh-pages'
         }
       }
