@@ -1,8 +1,12 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+@import "variables";
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+
+@import "content";
 
 .browsehappy {
   margin: 0.2em 0;
@@ -18,7 +22,7 @@ body {
 }
 
 h1 {
-  color: red;
+    color: #ff5252;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
